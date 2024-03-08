@@ -1,0 +1,41 @@
+.main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(95, 39, 226, 0.134);
+    width: 400px;
+    height: 460px;
+    margin:40px auto; 
+    box-shadow: 10px 10px 100px 1px rgb(169 144 210 / 84%);
+    /* font-size: small;
+    font-weight: 400; */
+}
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 80%;
+    height: 200px;
+}
+
+.Form Input
+{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(212 204 244);
+}
+
+.Form button
+{
+    margin-top: 20px;
+    padding: 4px;
+    border: none;
+    background-color: #7f7ad2;
+    width: 100px;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+    font-weight: 400;
+}
+
+body,html{
+    width: 100%;
+}
+
+.mainnew{
+    /* border: 2px solid red; */
+    width: 600px;
+    box-shadow:  10px 10px 100px 1px rgb(35 76 231 / 27%);
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #dce1f5;
+}
+
+.Formnew{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.samedivnew1 Input
+{
+    padding: 12px;
+    border-radius:5px ;
+    border: none;
+    background-color: #0071ff0d;
+}
+.samedivnew1{
+    width: 200px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.samedivnew2{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.sidediv select{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 6px 9px;
+    cursor: pointer;
+}
+.sidediv
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.Formnew Button
+{
+    border: none;
+    height: 40px;
+    background-color: #bdbdde;
+}
+
+.myeyenew
+{
+    position: absolute;
+    right: 751px;
+    top: 465px;
+}
